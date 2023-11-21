@@ -1,0 +1,70 @@
+@import "./mobile.css";
+@import "./desktop.css";
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #979db6;
+}
+
+a, span {
+	display: inline-block;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 1.1rem;
+}
+
+button {
+	margin: 0;
+	border: 0;
+	background-color: transparent;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: #404468;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #7480ad;
+}
+
+@font-face {
+   font-family: Poppins;
+   src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+   font-family: Comfortaa;
+   src: url("../fonts/Comfortaa/Comfortaa-Regular.ttf");
+}
+
+body {
+	font-size: 1rem;
+	font-family: Poppins;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #f5f6fb;
+	
+}
+
+
+
+

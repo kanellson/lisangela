@@ -1,0 +1,6 @@
+@media (min-width: 60em) {
+	.min-60 > * {
+		flex: 60%;
+		max-width: 60%;
+	}
+}
