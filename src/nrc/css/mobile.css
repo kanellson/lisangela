@@ -80,7 +80,7 @@ main {
   & p {
     max-width: 65%;
     padding: 0 0.6rem;
-    font-size: 0.8rem;
+    font-size: .925rem;
     color: #dce2ef;
   }
   & span {
@@ -88,7 +88,17 @@ main {
     padding: 0.4rem 0.6rem;
     border-radius: 0.4rem;
     margin-top: 0.6rem;
-    background-color: #ac71e7;
+    margin-bottom: 1rem;
+    background-color: #8b24f3;
+  }
+  & a {
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.4rem;
+    margin: 0.6rem 0;
+    color: #1e2e51;
+    font-weight: 600;
+    font-size: .9rem;
+    background-color: rgb(239, 233, 245);
   }
 }
 .lisan {
@@ -115,7 +125,7 @@ main {
   background-color: #dce2ef;
 
   & p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-weight: 600;
     color: #7f88a2;
     font-size: 1rem;
@@ -130,6 +140,12 @@ main {
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     background-color: #30385d;
+  }
+  & strong {
+    margin-top: .8rem;
+    color: #636c8c;
+    font-size: 1rem;
+    text-align: center;
   }
 }
 

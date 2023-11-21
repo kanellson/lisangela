@@ -27,6 +27,15 @@ export default function Project() {
                 </p>
               </div>
             </div>
+            <div className="flex">
+              <div className="wrapper_value">
+                <p>Faça uma doação com o códico abaixo</p>
+                <span>
+                  011011011.55
+                </span>
+                <strong>Lisangela Peixoto</strong>
+              </div>
+            </div>
           </div>
         </div>
       </section>
