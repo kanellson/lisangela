@@ -84,7 +84,8 @@ main {
     color: #dce2ef;
   }
   & span {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     padding: 0.4rem 0.6rem;
     border-radius: 0.4rem;
     margin-top: 0.6rem;
@@ -181,7 +182,7 @@ main {
   }
 
   & p {
-    font-size: .8rem;
+    font-size: .9rem;
     color: #d5d9e7;
     line-height: 1.5;
     margin-bottom: 1rem;
