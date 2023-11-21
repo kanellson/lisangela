@@ -14,8 +14,7 @@ export default function Home() {
                   da vida ela está precisando muito do seu apoio, por isso
                   criamos esse link de ajuda.
                   <span>
-                    Você pode estar ajudando fazendo um pix com qualquer valor 🤞💖
-                    
+                    Você pode estar ajudando fazendo um pix com qualquer valor 🤞💖                    
                     <Link href="/lisangela">Conheça um pouco mais</Link>
                   </span>
                 </p>
