@@ -1,4 +1,6 @@
-import Doe from "@/components/Doe";
+
+import Code from "@/components/Code/Code";
+import Icon from "@/components/Icons/Icon";
 import Image from "next/image";
 
 export default function Project() {
@@ -29,7 +31,7 @@ export default function Project() {
               </div>
             </div>
             <div className="flex">
-              <Doe/>
+            <Code />
             </div>
           </div>
         </div>
