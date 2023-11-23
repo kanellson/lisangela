@@ -1,3 +1,4 @@
+import Doe from "@/components/Doe";
 import Image from "next/image";
 
 export default function Project() {
@@ -28,13 +29,7 @@ export default function Project() {
               </div>
             </div>
             <div className="flex">
-              <div className="wrapper_value">
-                <p>Faça uma doação com o códico abaixo</p>
-                <span>
-                  011011011.55
-                </span>
-                <strong>Lisangela Peixoto</strong>
-              </div>
+              <Doe/>
             </div>
           </div>
         </div>

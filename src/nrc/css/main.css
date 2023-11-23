@@ -65,6 +65,51 @@ body {
 	
 }
 
+/* Code */
+.box_icon {
+	display: flex;
+	align-items: center;
+	padding: 0.3rem 1rem;
+	border-radius: .3rem;
+	background-color: #8B24F3;
+	& span {
+		padding: 0 .6rem;
+		color: #dfe4ed;
+	}
+}
+.text-slate-400 {
+	color: #6e7a8b;
+}
+.text-slate-700 {
+	color: #334155;
+}
+
+.relative {
+	position: relative;
+}
+
+.hover\:text-slate-100:hover {
+	transition: .3s;
+	color: #dfe4ed;
+	cursor: pointer;
+}
+.hover\:opacity:hover .code_copy {
+	opacity: 1;
+	visibility: visible;
+} 
+
+.copy_msg {
+	display: flex;
+	
+	padding: .6rem 1rem;
+	margin-bottom: .6rem;
+	border-radius: .4rem;
+	background-color: #8B24F3;
+}
+.code_copy {
+	opacity: 0;
+	visibility: hidden;
+}
 
 
 

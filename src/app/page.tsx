@@ -1,3 +1,4 @@
+import Code from "@/components/Code/Code";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,19 +15,15 @@ export default function Home() {
                   da vida ela está precisando muito do seu apoio, por isso
                   criamos esse link de ajuda.
                   <span>
-                    Você pode estar ajudando fazendo um pix com qualquer valor 🤞💖                    
+                    Você pode estar ajudando fazendo um pix com qualquer valor
+                    🤞💖
                     <Link href="/lisangela">Conheça um pouco mais</Link>
                   </span>
                 </p>
               </div>
             </div>
             <div className="flex">
-              <div className="wrapper_value">
-                <p>Faça uma doação com o códico abaixo</p>
-                <span>011011011.55</span>
-                <strong>Lisangela Peixoto</strong>
-              </div>
-              
+              <Code/>
             </div>
           </div>
         </div>
