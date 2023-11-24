@@ -1,16 +1,17 @@
 
-export default function Check ({width, height, ...otherProps}) {
+export default function Check ({width, height,...otherProps}:{ width: string, height: string }) {
 
   return (
     <div>
       <svg
-        width={width || 32}
-        height={height || 32}
+        width={width || 20}
+        height={height || 20}
         {...otherProps}
         version="1.1"
         id="Layer_1"
         x="0px"
         y="0px"
+        fill="#0cc"
         viewBox="0 0 122.88 122.88"
         enable-background="new 0 0 122.88 122.88"
       >

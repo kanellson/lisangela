@@ -1,16 +1,17 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import Icon from "../Icons/Icon";
 import CopyClipBoard from "../Copy/CopyClipBoard";
+import Icon from "../Icons/Icon";
+
 
 const CODE = "c9eb5eda-728f-4010-b701-122085df5ef2";
 const TIMEOUT_MS = 3000;
 
 export default function Code() {
   const [hasCopied, setHasCopied] = useState(false);
-  const timeoutRef = useRef(null);
-
-  useEffect(() => {
+  const timeoutRef = useRef<ReturnType<typeof setTimeout>>();
+  
+  useEffect(() => {	
     timeoutRef.current = setTimeout(setHasCopied, TIMEOUT_MS, false);
 
     return () => {
@@ -20,9 +21,9 @@ export default function Code() {
   }, [hasCopied]);
 
   const handleOnClick = () => {
-		CopyClipBoard(CODE).then(() => {
+		CopyClipBoard(CODE)?.then(() => {
 			setHasCopied(true);
-		})   	
+		}) 	
   };
   const iconId = hasCopied ? "check" : "copy";
   const tooltipText = hasCopied ? "Copiado" : "Copiar";
@@ -39,10 +40,10 @@ export default function Code() {
 			<div className="copy_msg code_copy">
 				<span>{tooltipText}</span>
 			</div>
-        <div className="box_icon">
-			<span>Click para copiar</span>
-		  	<Icon id={iconId} />
-		  </div>
+      <div className="box_icon">
+        <span>Click para copiar</span>
+        <Icon id={iconId} />        
+      </div>
       </button>		
 	</div>  
   );

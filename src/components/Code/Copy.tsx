@@ -1,17 +1,20 @@
-export default function Copy({width, height, ...otherProps}) {
+
+export default function Copy ({width, height,...otherProps}:{ width: string, height: string }) {
 
   return (
     <div>
       <svg
-        width={width || 32}
-        height={height || 32}
+        width={width || 20}
+        height={height || 20}
         {...otherProps}
+        
         xmlns="http://www.w3.org/2000/svg"
         shape-rendering="geometricPrecision"
         text-rendering="geometricPrecision"
         image-rendering="optimizeQuality"
         fill-rule="evenodd"
         clip-rule="evenodd"
+        fill="#ccc"
         viewBox="0 0 438 511.52"
       >
         <path

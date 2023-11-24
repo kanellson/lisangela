@@ -1,8 +1,9 @@
 import React from 'react'
-import Check from "../Code/Check"
 import Copy from "../Code/Copy"
+import Check from "../Code/Check"
 
-export default function Icon ({ id, ...props }) {
+
+export default function Icon ({id, ...props }) {
 	const icons = { 
 		copy: Copy,
 		check: Check,
