@@ -59,6 +59,11 @@ img {
    src: url("../fonts/Comfortaa/Comfortaa-Regular.ttf");
 }
 
+:root {
+	--bgHeader: #4d1d99;
+	--bgHome: #781fd2;
+}
+
 body {
 	font-size: 1rem;
 	font-family: Poppins;
@@ -111,7 +116,6 @@ body {
 	opacity: 0;
 	display: none;
 }
-
 
 .copy_msg {
 	width: 100%;

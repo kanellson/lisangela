@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <>
       <section className="mainHome">
+        <div className="efect_1"></div>
         <div className="container">
           <div className="row min-60">
             <div className="flex">
@@ -28,17 +29,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* <section className="section_bg">
-        <Image
-          src={"/images/body.webp"}
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
-          alt="Imagem com logo iasd"
-        />
-      </section> */}
     </>
   );
 }
