@@ -5,7 +5,7 @@ import Icon from "../Icons/Icon";
 
 
 const CODE = "c9eb5eda-728f-4010-b701-122085df5ef2";
-const TIMEOUT_MS = 3000;
+const TIMEOUT_MS = 9000;
 
 export default function Code() {
   const [hasCopied, setHasCopied] = useState(false);
