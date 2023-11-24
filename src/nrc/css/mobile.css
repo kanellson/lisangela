@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   z-index: 9999;
-  background-color: #761d99;
+  background-color: #4d1d99;
 }
 .navbar {
   display: flex;
@@ -70,9 +70,9 @@ main {
 .mainHome {
   position: relative;
   width: 100%;
+  min-height: calc(100vh - 3rem);
   padding: 2rem 0;
-  background-image: linear-gradient(to top right, #dac5ef 0%, #761d99 100%);
-  background-color: #ac71e7;
+  background-color: #781fd2;
 }
 .content_lisan {
   display: flex;
