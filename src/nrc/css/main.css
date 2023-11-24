@@ -18,6 +18,10 @@ a, span {
 	display: inline-block;
 }
 
+span {
+	color: #8b93ca;
+}
+
 ul, ol {
 	list-style-type: none;
 }
@@ -75,6 +79,8 @@ body {
 	& span {
 		padding: 0 .6rem;
 		color: #dfe4ed;
+		font-weight: 600;
+		font-size: 1rem;
 	}
 }
 .text-slate-400 {
@@ -93,23 +99,32 @@ body {
 	color: #dfe4ed;
 	cursor: pointer;
 }
+ 
 .hover\:opacity:hover .code_copy {
 	opacity: 1;
-	visibility: visible;
-} 
+	display: block;
+	transition: .3s;
+}
+.code_copy {
+	position: absolute;
+	top: -50px;
+	opacity: 0;
+	display: none;
+}
+
 
 .copy_msg {
+	width: 100%;
 	display: flex;
-	
+	justify-content: center;
 	padding: .6rem 1rem;
 	margin-bottom: .6rem;
 	border-radius: .4rem;
+	transition: .2s;
+	font-size: 1.2rem;
 	background-color: #8B24F3;
+
+	& span {
+		color: #fff;
+	}
 }
-.code_copy {
-	opacity: 0;
-	visibility: hidden;
-}
-
-
-
