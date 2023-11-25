@@ -7,6 +7,7 @@ export default function Project() {
   return (
     <>
       <section className="sectionProject">
+      <div className="efect_1"></div>
         <div className="container">
           <div className="row">
             <div className="flex">

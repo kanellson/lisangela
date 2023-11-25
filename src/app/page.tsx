@@ -18,7 +18,7 @@ export default function Home() {
                   <span>
                     Você pode estar ajudando fazendo um pix com qualquer valor
                     🤞💖
-                    <Link href="/lisangela">Conheça um pouco mais</Link>
+                    <Link href="/lisangela">Conheça um pouco mais <em>⇏</em></Link>
                   </span>
                 </p>
               </div>

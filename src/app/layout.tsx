@@ -28,6 +28,9 @@ export default function RootLayout({
                 <li>
                   <Link href="/lisangela">Lisangela</Link>
                 </li>
+                <li>
+                  <Link href="/projeto">Projeto</Link>
+                </li>
               </ul>
             </nav>
           </div>

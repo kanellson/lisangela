@@ -40,12 +40,24 @@
   justify-content: center;
 
   & ul {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
+    flex-direction: column;
+    border-radius: 0 0 0 15px;
+    box-shadow: 0 1px 12px -5px #c7cfe9;
+    background-color: #781FD2;
   }
 
   & ul > li {
     display: flex;
-    line-height: 2.6rem;
+    line-height: 2.8rem;
+    margin: 0 .5rem;
+    border-bottom: solid .8px #620abb;
+  }
+  & ul > li:last-child {
+    border-bottom: none;
   }
 
   & ul > li > a {
@@ -67,11 +79,11 @@ main {
   margin: auto;
 }
 
-.mainHome {
+section.mainHome {
   position: relative;
   width: 100%;
   min-height: calc(100vh - 3rem);
-  padding: 2rem 0;
+  padding: 3.2rem 0;
   background-color: var(--bgHome);
   background-image: linear-gradient(to right, #931fd2 0%, #4d1d99 100% );
 }
@@ -80,7 +92,16 @@ main {
   top: 20%;
   left: 80%;
   z-index: 10;
-  box-shadow: 0 4rem 10rem 4rem #ba70dc;
+  box-shadow: 
+    0 0rem 10rem 3rem #08cdeb,
+    0 15rem 20rem 6rem #084bf5;
+}
+.efect_2 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 10;
+  box-shadow: 0 4rem 11rem 3rem #7a0ae9;
 }
 .content_lisan {
   display: flex;
@@ -101,6 +122,10 @@ main {
     margin-bottom: 1rem;
     color: #eae8f3;
     background-color: #8b24f3;
+  }
+  & em {
+    font-size: 1.rem;
+    color: #3e6ecd;
   }
   & a {
     padding: 0.4rem 0.6rem;
@@ -130,7 +155,7 @@ main {
   align-items: center;
   width: 100%;
   min-height: 150px;
-  padding: 2rem 1.1rem;
+  padding: 1.1rem;
   border-radius: 8px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #dce2ef;
@@ -192,7 +217,8 @@ main {
 .content_text {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 0.6rem;
   background-color: #7a3eaa;
 
@@ -209,5 +235,57 @@ main {
     line-height: 1.5;
     margin-bottom: 1rem;
     font-family: Comfortaa;
+  }
+}
+
+section.sectionConstrucao {
+  padding: 3.2rem 0;
+  background-color: #c7cfe9;
+}
+.project_construct {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  background-color: #eae8f3;
+
+  & h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -5px;
+    color: #6f779b;
+  }
+  & span {
+    margin-right: .3rem;
+    color: #781FD2;
+  }
+  & h3 {
+    position: relative;
+    font-size: 1rem;
+    color: #2e3247;
+
+    & span {
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 100px;
+      height: 2px;
+      border-radius: 5px;
+      background-color: #4d1d99;
+    }
+  }
+
+  .estrutura {
+    padding: 1rem 0;
+    max-width: 90%;
+
+    & ul > li  {
+      color: #878e9c;
+      font-size: .9rem;
+    }
+    & ul > li > em  {
+      color: #202838;
+      font-size: 1rem;
+    }
   }
 }
