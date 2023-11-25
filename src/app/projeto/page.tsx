@@ -1,5 +1,5 @@
 import Code from "@/components/Code/Code";
-import Icon from "@/components/Icons/Icon";
+import Icon from "@/components/Code/Icon";
 import Image from "next/image";
 
 export default function Construcao() {
@@ -7,7 +7,7 @@ export default function Construcao() {
     <>
       <section className="sectionConstrucao">
         <div className="container">
-          <div className="row">
+          <div className="row min-60">
             <div className="flex">
               <div className="project_construct">
                 <div className="efect_2"></div>

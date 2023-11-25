@@ -11,7 +11,9 @@
   align-items: center;
   min-height: 2.6rem;
 }
-.navbar .navbar_logo {
+.navbar_logo {
+  display: flex;
+  margin:  auto;
   padding: 0.3rem 0.4rem;
   font-size: 1.2rem;
 
@@ -31,6 +33,7 @@
     width: auto;
     height: 35px;
     padding: 0 0.3rem;
+    color: #b29df2;
     border-radius: 35px;
   }
 }
@@ -41,20 +44,19 @@
 
   & ul {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2.8rem;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    flex-direction: column;
-    border-radius: 0 0 0 15px;
-    box-shadow: 0 1px 12px -5px #c7cfe9;
-    background-color: #781FD2;
+    flex-direction: row;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    background-color: #C7CFE9;
   }
 
   & ul > li {
     display: flex;
-    line-height: 2.8rem;
-    margin: 0 .5rem;
-    border-bottom: solid .8px #620abb;
+    line-height: 2rem;    
   }
   & ul > li:last-child {
     border-bottom: none;
@@ -62,13 +64,23 @@
 
   & ul > li > a {
     display: flex;
-    padding: 0 0.8rem;
-    color: #c7cfe9;
-    font-size: 1rem;
+    padding: 0 1rem;
+    color: #e5e6f3;
+    font-size: .9rem;
     font-weight: 600;
     font-family: Comfortaa;
+    background-color: #781FD2;
+  }
+  .bg-link {
+    display: flex;
+    width: 100%;
+    color: #2d2f47;
+    transition: .3s;
+    background-color: #edeff3;
   }
 }
+
+
 
 main {
   flex: 1;
@@ -83,24 +95,24 @@ section.mainHome {
   position: relative;
   width: 100%;
   min-height: calc(100vh - 3rem);
-  padding: 3.2rem 0;
+  padding-top: var(--height_section);
   background-color: var(--bgHome);
-  background-image: linear-gradient(to top right, #f9f7fa 0%, #cfddf4 100% );
+  background-image: linear-gradient(to right, #f9f7fa 0%, #e0eaf9 100% );
 }
 .efect_1 {
   position: absolute;
   top: 0;
-  left: 90%;
-  z-index: 10;
+  left: 10%;
+  z-index: 0;
   box-shadow: 
-    0 0rem 15rem 3rem #bab1ec,
-    0 5rem 15rem 5rem #7389c0;
+    0 0rem 15rem 4rem rgb(164, 90, 230),
+    0 5rem 15rem 3rem #cdd2e0;
 }
 .efect_2 {
   position: absolute;
   top: 20%;
   left: 10%;
-  z-index: 10;
+  z-index: 0;
   box-shadow: 0 4rem 11rem 3rem #7a0ae9;
 }
 .content_lisan {
@@ -197,6 +209,9 @@ section.mainHome {
   }
 }
 
+section.sectionProject {
+  padding-top: var(--height_section);
+}
 .lisangela {
   display: flex;
   justify-content: center;
@@ -239,7 +254,8 @@ section.mainHome {
 }
 
 section.sectionConstrucao {
-  padding: 3.2rem 0;
+  padding-top: var(--height_section);
+  padding-bottom: 1rem;
   background-color: #c7cfe9;
 }
 .project_construct {

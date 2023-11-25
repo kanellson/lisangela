@@ -1,6 +1,6 @@
 
 import Code from "@/components/Code/Code";
-import Icon from "@/components/Icons/Icon";
+import Icon from "@/components/Code/Icon";
 import Image from "next/image";
 
 export default function Project() {
@@ -9,7 +9,7 @@ export default function Project() {
       <section className="sectionProject">
       <div className="efect_1"></div>
         <div className="container">
-          <div className="row">
+          <div className="row min-60">
             <div className="flex">
               <div className="lisangela">
                 <div className="img_lisan"></div>

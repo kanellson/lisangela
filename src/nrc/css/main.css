@@ -62,6 +62,7 @@ img {
 :root {
 	--bgHeader: #4d1d99;
 	--bgHome: #781fd2;
+	--height_section: 3.5rem;
 }
 
 body {

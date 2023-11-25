@@ -1,6 +1,6 @@
 import React from 'react'
-import Copy from "../Code/Copy"
-import Check from "../Code/Check"
+import Copy from "./Copy"
+import Check from "./Check"
 
 
 export default function Icon ({id }:{id: any}) {

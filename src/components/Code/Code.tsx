@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import CopyClipBoard from "../Copy/CopyClipBoard";
-import Icon from "../Icons/Icon";
+import CopyClipBoard from "./CopyClipBoard";
+import Icon from "./Icon";
 
 const CODE = "c9eb5eda-728f-4010-b701-122085df5ef2";
 const TIMEOUT_MS = 6000;

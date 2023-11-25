@@ -3,4 +3,13 @@
 		flex: 60%;
 		max-width: 60%;
 	}
+	.efect_1 {
+		position: absolute;
+		top: 0;
+		left: 90%;
+		z-index: 10;
+		box-shadow: 
+		  0 0rem 15rem 3rem #bab1ec,
+		  0 5rem 15rem 5rem #7389c0;
+	 }
 }

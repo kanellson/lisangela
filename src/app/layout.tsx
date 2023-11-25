@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "../nrc/css/main.css";
 import Link from "next/link";
+import ActiveLink from "@/components/active/link";
 
 export const metadata: Metadata = {
   title: "Doe Esperança || Lisangela",
@@ -25,12 +26,9 @@ export default function RootLayout({
             </div>
             <nav className="navbar_menu">
               <ul>
-                <li>
-                  <Link href="/lisangela">Lisangela</Link>
-                </li>
-                <li>
-                  <Link href="/projeto">Projeto</Link>
-                </li>
+                <li><ActiveLink href="/">Home</ActiveLink></li>
+                <li><ActiveLink href="/lisangela">Lisangela</ActiveLink></li>                
+                <li><ActiveLink href="/projeto">Projeto</ActiveLink></li>                
               </ul>
             </nav>
           </div>
