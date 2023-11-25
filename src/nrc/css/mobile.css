@@ -85,16 +85,16 @@ section.mainHome {
   min-height: calc(100vh - 3rem);
   padding: 3.2rem 0;
   background-color: var(--bgHome);
-  background-image: linear-gradient(to right, #931fd2 0%, #4d1d99 100% );
+  background-image: linear-gradient(to top right, #f9f7fa 0%, #cfddf4 100% );
 }
 .efect_1 {
   position: absolute;
-  top: 20%;
-  left: 80%;
+  top: 0;
+  left: 90%;
   z-index: 10;
   box-shadow: 
-    0 0rem 10rem 3rem #806ee3,
-    0 15rem 20rem 6rem #7389c0;
+    0 0rem 15rem 3rem #bab1ec,
+    0 5rem 15rem 5rem #7389c0;
 }
 .efect_2 {
   position: absolute;
@@ -110,7 +110,7 @@ section.mainHome {
     max-width: 65%;
     padding: 0 0.6rem;
     font-size: 0.925rem;
-    color: #dce2ef;
+    color: #1c222f;
   }
   & span {
     display: flex;
