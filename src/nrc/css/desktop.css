@@ -1,22 +1,20 @@
 @media (min-width: 60em) {
-	.min-60 > * {
-		flex: 60%;
-		max-width: 60%;
-	}
-	.efect_1 {
-		position: absolute;
-		top: 0;
-		left: 90%;
-		z-index: 0;
-		box-shadow: 
-		  0 0rem 15rem 3rem #bab1ec,
-		  0 5rem 15rem 5rem #7389c0;
-	 }
+  .min-60 > * {
+    flex: 60%;
+    max-width: 60%;
+  }
+  .efect_1 {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    z-index: 0;
+    box-shadow: 0 0rem 15rem 3rem #bab1ec, 0 5rem 15rem 5rem #7389c0;
+  }
+  .efect_2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 0;
+    box-shadow: 0 4rem 11rem 3rem #a66be1;
+  }
 }
-.efect_2 {
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	z-index: 0;
-	box-shadow: 0 4rem 11rem 3rem #a66be1;
- }

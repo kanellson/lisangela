@@ -7,19 +7,18 @@
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   min-height: 2.6rem;
 }
 .navbar_logo {
   display: flex;
-  margin:  auto;
   padding: 0.3rem 0.4rem;
-  font-size: 1.2rem;
 
   & a {
     display: flex;
     align-items: center;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #f1eff7;
     font-family: Comfortaa;
@@ -27,7 +26,6 @@
 
   & span {
     display: flex;
-    justify-content: center;
     align-items: center;
     font-weight: 600;
     width: auto;
