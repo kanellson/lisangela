@@ -15,8 +15,7 @@ export default function Construcao() {
                   <span>O</span> projeto
                 </h2>
                 <h3>
-                  Construir um apartamento com estrutura para portadores com
-                  necessidades especias
+                  Construir um apartamento com acessibilidade  para pessoas portadoras de necessidades especiais.
                   <span></span>
                 </h3>
                 <div className="estrutura">
