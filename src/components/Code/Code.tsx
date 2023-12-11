@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import CopyClipBoard from "./CopyClipBoard";
 import Icon from "./Icon";
 
-const CODE = "c9eb5eda-728f-4010-b701-122085df5ef2";
+const CODE = "95991571485";
 const TIMEOUT_MS = 6000;
 
 export default function Code() {
