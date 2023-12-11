@@ -4,6 +4,7 @@ import CopyClipBoard from "./CopyClipBoard";
 import Icon from "./Icon";
 
 const CODE = "95991571485";
+const NAME = "Lisangela da Silva Peixoto";
 const TIMEOUT_MS = 6000;
 
 export default function Code() {
@@ -43,7 +44,7 @@ export default function Code() {
           <Icon id={iconId} />
         </div>
       </button>
-      <strong>Lisangela da Silva Peixoto</strong>
+      <strong>{NAME}</strong>
       <pre className="text-slate-400">{CODE}</pre>
     </div>
   );
