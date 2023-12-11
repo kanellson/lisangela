@@ -45,7 +45,7 @@ export default function Code() {
         </div>
       </button>
       <strong>{NAME}</strong>
-      <pre className="text-slate-400">{CODE}</pre>
+      <pre className="text-slate-400">pix {CODE}</pre>
     </div>
   );
 }
