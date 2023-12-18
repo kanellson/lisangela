@@ -30,7 +30,7 @@ export default function Code() {
 
   return (
     <div className="wrapper_value">
-      <p>Faça uma doação usando a chave aleatória</p>
+      <p>Faça uma doação</p>
       <button
         onClick={handleOnClick}
         type="button"
